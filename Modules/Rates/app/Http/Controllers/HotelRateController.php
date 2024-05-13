@@ -86,7 +86,6 @@ class HotelRateController extends Controller
                                     ];
                                 }); // Use unique if you want to eliminate duplicate board types within the same group
                             });
-
                         // Only return the first item for room type details since all are the same in this group
                         $firstItem = $roomTypeItems->first();
                         return [
